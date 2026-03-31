@@ -25,7 +25,7 @@ Since this is an OpenCode extension, no complex global installation is required.
 ### 1. Link the Plugin Locally
 Clone this repository to your preferred location:
 ```bash
-git clone https://github.com/YourUsername/opencode-buddy.git
+git clone https://github.com/azinak/opencode-buddy.git
 cd opencode-buddy
 bun install
 ```
