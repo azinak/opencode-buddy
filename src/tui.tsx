@@ -1,4 +1,4 @@
-import { BuddyWidget } from "./BuddyWidget.jsx";
+import { BuddyWidget } from "./BuddyWidget.tsx";
 
 export default {
   tui: async (api) => {

@@ -10,8 +10,8 @@ export type Eye = typeof EYES[number];
 export const HATS = ['none', 'crown', 'beanie', 'wizard', 'propeller'] as const;
 export type Hat = typeof HATS[number];
 
-export const STATS = ['DEBUGGING', 'PATIENCE', 'CHAOS', 'WISDOM', 'SNARK'] as const;
-export type StatName = typeof STATS[number];
+export const STAT_NAMES = ['DEBUGGING', 'PATIENCE', 'CHAOS', 'WISDOM', 'SNARK'] as const;
+export type StatName = typeof STAT_NAMES[number];
 
 export type CompanionBones = {
   rarity: Rarity;
